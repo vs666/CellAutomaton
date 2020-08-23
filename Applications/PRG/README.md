@@ -29,8 +29,8 @@ We should note that the key should not be in the initiation, but the first value
 
 ### Space and memory requirements
 
-The space requirements are : *O((100000)x(64))*
-The time complexity is : Precomputation : *O((100000)x(64))*, Access/Generation : *O(1)* 
+1. The space requirements are : *O((100000)x(64))*
+2. The time complexity is : Precomputation : *O((100000)x(64))*, Access/Generation : *O(1)* 
 
 
 ### Guessing PRG 
@@ -38,8 +38,8 @@ The only way to guess a Number is to study its previous and next number along wi
 
 Mathematical proof of security of this method is under analysis and will be updated soon.
 
-Code : Code is available [here](https://github.com/vs666/CellAutomaton/blob/master/cpp/prg.cpp)
-Executable : exe file is available [here](https://github.com/vs666/CellAutomaton/blob/master/exe_files/prg)
+1. Code : Code is available [here](https://github.com/vs666/CellAutomaton/blob/master/cpp/prg.cpp)
+2. Executable : exe file is available [here](https://github.com/vs666/CellAutomaton/blob/master/exe_files/prg)
 
 ### Contact
 
