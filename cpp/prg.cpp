@@ -2,14 +2,13 @@
 #include <bits/stdc++.h>
 #include <time.h>
 using namespace std;
-typedef long long ll;
+typedef unsigned long long ll;
 
 class PRG
 {
 public:
     PRG(ll key)
     {
-        this->key = key;
         for (int x = 0; x < 64; x++)
         {
             this->seq[x] = vector<ll>(100000, 0);
@@ -18,6 +17,7 @@ public:
         p2 = 10201923197;
         mmod -= 1;
         init();
+        this->key = (key * p1 + p2) % mmod;
     }
     unsigned long int randomNext()
     {
